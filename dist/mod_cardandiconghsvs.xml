@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>MOD_CARDANDICONGHSVS</name>
+	<author>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</author>
+	<creationDate>2024-02-03</creationDate>
+	<copyright>(C) 2024, G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
+	<authorUrl>https://ghsvs.de</authorUrl>
+	<version>2024.02.03</version>
+	<description>MOD_CARDANDICONGHSVS_XML_DESCRIPTION</description>
+
+	<updateservers><server type="extension" priority="1" name="MOD_CARDANDICONGHSVS">https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_cardandiconghsvs-update.xml</server></updateservers>
+
+	<infourl>https://github.com/GHSVS-de/mod_cardandiconghsvs/releases/tag/2024.02.03</infourl>
+
+	<scriptfile>installerScript.php</scriptfile>
+	<minimumPhp>7.4.0</minimumPhp>
+	<maximumPhp></maximumPhp>
+	<minimumJoomla>4.3.0</minimumJoomla>
+	<maximumJoomla>5.9999.9999</maximumJoomla>
+	<allowDowngrades>1</allowDowngrades>
+
+	<files>
+		<folder>language</folder>
+		<folder module="mod_cardandiconghsvs">services</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+		<filename>installerScript.php</filename>
+		<filename>LICENSE.txt</filename>
+	</files>
+
+	<media folder="media" destination="mod_cardandiconghsvs">
+		<filename>joomla.asset.json</filename>
+	</media>
+	<namespace path="src">GHSVS\Module\CardAndIconGhsvs</namespace>
+	<config addfieldprefix="GHSVS\Module\CardAndIconGhsvs\Site\Field">
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field name="extensionVersion" type="Version" extensionVersion="2024.02.03"
+					label="JVERSION"/>
+
+				<field name="backgroundimage" type="media" default="" filter="string"
+					label="MOD_CARDANDICONGHSVS_BACKGROUNDIMAGE"
+					preview="true"/>
+
+				<field name="text" type="textarea" filter="safehtml"
+					default="MOD_CARDANDICONGHSVS_HEADLINE_DEFAULT"
+					label="MOD_CARDANDICONGHSVS_HEADLINE" />
+
+				<field name="items" type="subform" max="20" multiple="true"
+					formsource="modules/mod_cardandiconghsvs/src/Form/subform.xml"
+					layout="joomla.form.field.subform.repeatable" groupByFieldset="false"
+					label=""
+					hiddenLabel="true"
+					description=""/>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					class="form-select"
+					validate="moduleLayout"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					rows="3"
+					validate="CssIdentifier"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					default="1"
+					filter="integer"
+					validate="options"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					default="900"
+					filter="integer"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+					>
+					<option value="static"></option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

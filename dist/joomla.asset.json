@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "mod_cardandiconghsvs",
+  "version": "2024.02.03",
+	"versionSub": "",
+  "description": "Joomla frontend module. Created for a single website. I don't even want to suck a description out of my fingers.",
+  "license": "GNU General Public License version 3 or later; see LICENSE.txt.",
+  "assets": [
+    {
+      "name": "mod_cardandiconghsvs.framework",
+      "type": "preset",
+			"dependencies": [
+				"mod_cardandiconghsvs.override.template#style"
+			]
+    },
+		{
+			"name": "mod_cardandiconghsvs.override.template",
+			"version": "2024.02.03",
+			"type": "style",
+			"uri": "mod_cardandiconghsvs.css",
+			"weight": 500
+		}
+  ]
+}

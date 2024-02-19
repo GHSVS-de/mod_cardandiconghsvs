@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+
+	<field name="title" type="textarea" default="" filter="safehtml"
+		label="MOD_CARDANDICONGHSVS_TITLE" />
+
+	<field name="iconClass" type="textarea" default="" validate="CssIdentifier"
+		hint="Beispiel: fa-laptop"
+		label="MOD_CARDANDICONGHSVS_ICONCLASS" />
+
+	<field name="text" type="textarea" default="" filter="safehtml"
+		label="MOD_CARDANDICONGHSVS_TEXT" />
+
+	<field name="active" type="list" default="1" filter="integer"
+		label="MOD_CARDANDICONGHSVS_ACTIVE">
+		<option value="0">JNO</option>
+		<option value="1">JYES</option>
+	</field>
+</form>
