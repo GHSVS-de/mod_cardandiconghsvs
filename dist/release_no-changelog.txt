@@ -1,11 +1,11 @@
-2024.02.03
+2024.02.19
 
-Joomla site module mod_cardAndIconGhsvs 2024.02.03
+Joomla site module mod_cardAndIconGhsvs 2024.02.19
 
 Joomla frontend module. Created for a single website. I don't even want to suck a description out of my fingers.
 
 ### Download
-[mod_cardandiconghsvs-2024.02.03.zip](https://github.com/GHSVS-de/mod_cardandiconghsvs/raw/2024.02.03/dist/mod_cardandiconghsvs-2024.02.03.zip)
+[mod_cardandiconghsvs-2024.02.19.zip](https://github.com/GHSVS-de/mod_cardandiconghsvs/raw/2024.02.19/dist/mod_cardandiconghsvs-2024.02.19.zip)
 
 ### Joomla-Target-Platform(s)
 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)<br>5.&ast;
@@ -13,12 +13,12 @@ Joomla frontend module. Created for a single website. I don't even want to suck 
 ### For the interested ones
 - Deutsche Beschreibung: 
 - English Description: 
-- [Compare releases 2024.02.03...2024.02.03](https://github.com/GHSVS-de/mod_cardandiconghsvs/compare/2024.02.03...2024.02.03)
+- [Compare releases 2024.02.03...2024.02.19](https://github.com/GHSVS-de/mod_cardandiconghsvs/compare/2024.02.03...2024.02.19)
 - minimumJoomla: 4.3.0
 - maximumJoomla: 5.9999.9999
 - minimumPhp: 7.4.0
 - maximumPhp: 
-- Checksum: `<sha256>80b1cbe6d921476706c239a72d1d5b22bf8bb4c73532c3821e7150cf68558a79</sha256>`
+- Checksum: `<sha256>f23da4bbb94b26d7f54af7d8d7ad5581b5319c6204129d5798b2c1d500945664</sha256>`
 - Readme: https://github.com/GHSVS-de/mod_cardandiconghsvs#readme
 - Updates XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_cardandiconghsvs-update.xml
 - Last tests: PHP 8.2<br>Joomla 4.4

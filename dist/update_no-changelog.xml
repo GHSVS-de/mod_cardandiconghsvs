@@ -1,4 +1,4 @@
-<!--MOD_CARDANDICONGHSVS Version 2024.02.03 Target platform: 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)-->
+<!--MOD_CARDANDICONGHSVS Version 2024.02.19 Target platform: 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)-->
 	<update>
 		<name>MOD_CARDANDICONGHSVS</name>
 		<description>Joomla frontend module. Created for a single website. I don't even want to suck a description out of my fingers.</description>
@@ -6,10 +6,10 @@
 		<type>module</type>
 		<folder></folder>
 		<client>site</client>
-		<version>2024.02.03</version>
-		<infourl>https://github.com/GHSVS-de/mod_cardandiconghsvs/releases/tag/2024.02.03</infourl>
+		<version>2024.02.19</version>
+		<infourl>https://github.com/GHSVS-de/mod_cardandiconghsvs/releases/tag/2024.02.19</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_cardandiconghsvs/raw/2024.02.03/dist/mod_cardandiconghsvs-2024.02.03.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_cardandiconghsvs/raw/2024.02.19/dist/mod_cardandiconghsvs-2024.02.19.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -18,10 +18,10 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)" />
 		<php_minimum>7.4.0</php_minimum>
-		<sha256>80b1cbe6d921476706c239a72d1d5b22bf8bb4c73532c3821e7150cf68558a79</sha256>
+		<sha256>f23da4bbb94b26d7f54af7d8d7ad5581b5319c6204129d5798b2c1d500945664</sha256>
 	</update>
-<!--/MOD_CARDANDICONGHSVS Version 2024.02.03 Target platform: 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)-->
-<!--MOD_CARDANDICONGHSVS Version 2024.02.03 Target platform: 5.*-->
+<!--/MOD_CARDANDICONGHSVS Version 2024.02.19 Target platform: 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)-->
+<!--MOD_CARDANDICONGHSVS Version 2024.02.19 Target platform: 5.*-->
 	<update>
 		<name>MOD_CARDANDICONGHSVS</name>
 		<description>Joomla frontend module. Created for a single website. I don't even want to suck a description out of my fingers.</description>
@@ -29,10 +29,10 @@
 		<type>module</type>
 		<folder></folder>
 		<client>site</client>
-		<version>2024.02.03</version>
-		<infourl>https://github.com/GHSVS-de/mod_cardandiconghsvs/releases/tag/2024.02.03</infourl>
+		<version>2024.02.19</version>
+		<infourl>https://github.com/GHSVS-de/mod_cardandiconghsvs/releases/tag/2024.02.19</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_cardandiconghsvs/raw/2024.02.03/dist/mod_cardandiconghsvs-2024.02.03.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/GHSVS-de/mod_cardandiconghsvs/raw/2024.02.19/dist/mod_cardandiconghsvs-2024.02.19.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -41,6 +41,6 @@
 		<maintainerurl>https://ghsvs.de</maintainerurl>
 		<targetplatform name="joomla" version="5.*" />
 		<php_minimum>7.4.0</php_minimum>
-		<sha256>80b1cbe6d921476706c239a72d1d5b22bf8bb4c73532c3821e7150cf68558a79</sha256>
+		<sha256>f23da4bbb94b26d7f54af7d8d7ad5581b5319c6204129d5798b2c1d500945664</sha256>
 	</update>
-<!--/MOD_CARDANDICONGHSVS Version 2024.02.03 Target platform: 5.*-->
+<!--/MOD_CARDANDICONGHSVS Version 2024.02.19 Target platform: 5.*-->

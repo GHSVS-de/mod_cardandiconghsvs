@@ -6,12 +6,12 @@
 	<copyright>(C) 2024, G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
 	<authorUrl>https://ghsvs.de</authorUrl>
-	<version>2024.02.03</version>
+	<version>2024.02.19</version>
 	<description>MOD_CARDANDICONGHSVS_XML_DESCRIPTION</description>
 
 	<updateservers><server type="extension" priority="1" name="MOD_CARDANDICONGHSVS">https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_cardandiconghsvs-update.xml</server></updateservers>
 
-	<infourl>https://github.com/GHSVS-de/mod_cardandiconghsvs/releases/tag/2024.02.03</infourl>
+	<infourl>https://github.com/GHSVS-de/mod_cardandiconghsvs/releases/tag/2024.02.19</infourl>
 
 	<scriptfile>installerScript.php</scriptfile>
 	<minimumPhp>7.4.0</minimumPhp>
@@ -37,16 +37,15 @@
 		<fields name="params">
 			<fieldset name="basic">
 
-				<field name="extensionVersion" type="Version" extensionVersion="2024.02.03"
+				<field name="extensionVersion" type="Version" extensionVersion="2024.02.19"
 					label="JVERSION"/>
 
 				<field name="backgroundimage" type="media" default="" filter="string"
 					label="MOD_CARDANDICONGHSVS_BACKGROUNDIMAGE"
 					preview="true"/>
 
-				<field name="text" type="textarea" filter="safehtml"
-					default="MOD_CARDANDICONGHSVS_HEADLINE_DEFAULT"
-					label="MOD_CARDANDICONGHSVS_HEADLINE" />
+				<field name="moduleTitleAlt" type="text" filter="safehtml"
+					label="MOD_CARDANDICONGHSVS_MODULETITLEALT"/>
 
 				<field name="items" type="subform" max="20" multiple="true"
 					formsource="modules/mod_cardandiconghsvs/src/Form/subform.xml"
